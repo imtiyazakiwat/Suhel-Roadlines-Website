@@ -1,7 +1,7 @@
 // Define a function to generate the HTML code for the navbar
 function generateNavbar() {
     return `
-    <nav class="navbar navbar-expand-lg navbar-light bg-black shadow-sm">
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark shadow-sm">
     <div class="container">
       <a class="navbar-brand d-flex align-items-center" href="#">
         <img
@@ -43,6 +43,7 @@ function generateNavbar() {
       </div>
     </div>
   </nav>
+  
     `;
   }
   
