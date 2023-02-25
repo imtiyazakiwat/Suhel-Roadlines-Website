@@ -4,22 +4,26 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- Import Tailwind CSS -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css">
   <title>About Us | Local Transport</title>
+  <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="navbar.js"></script>
+    <script src="footer.js"></script>
+
 </head>
 <body>
   <!-- Navigation bar -->
-  <nav class="bg-gray-900 py-4">
-    <div class="container mx-auto px-4">
-      <a href="/" class="text-white font-bold text-lg">Local Transport</a>
-      <ul class="flex space-x-4 text-white text-sm mt-2">
-        <li><a href="/">Home</a></li>
-        <li><a href="/services">Services</a></li>
-        <li><a href="/about">About Us</a></li>
-        <li><a href="/contact">Contact Us</a></li>
-      </ul>
-    </div>
-  </nav>
+  <script>
+    document.write(generateNavbar());
+  </script>
 
   <!-- About Us section -->
   <section class="py-12">
@@ -40,14 +44,8 @@
   </section>
 
   <!-- Footer -->
-  <footer class="bg-gray-900 py-4">
-    <div class="container mx-auto px-4 flex justify-between items-center">
-      <p class="text-white">© 2023 Local Transport. All rights reserved.</p>
-      <ul class="flex space-x-4 text-white text-sm">
-        <li><a href="/privacy-policy">Privacy Policy</a></li>
-        <li><a href="/terms-of-service">Terms of Service</a></li>
-      </ul>
-    </div>
-  </footer>
+  <script>
+    document.write(generateFooter());
+  </script>
 </body>
 </html>
