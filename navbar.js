@@ -26,16 +26,16 @@ function generateNavbar() {
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item active">
-            <a class="nav-link text-white" href="/index.html">Home</a>
+            <a class="nav-link text-white" href="index.html">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white" href="/services.html">Services</a>
+            <a class="nav-link text-white" href="services.html">Services</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white" href="/aboutus.html">About Us</a>
+            <a class="nav-link text-white" href="aboutus.html">About Us</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white" href="/contactus.html"
+            <a class="nav-link text-white" href="contactus.html"
               >Contact Us</a
             >
           </li>
